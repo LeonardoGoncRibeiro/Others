@@ -1,5 +1,5 @@
 # Others
-Other files created by the author to assist in projects.
+Other files created by the author to assist in personal projects.
 
 # VisualizationVeusz
 Files created for data visualization using Veusz. 
