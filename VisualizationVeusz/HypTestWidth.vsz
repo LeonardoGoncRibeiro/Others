@@ -1,0 +1,102 @@
+# Veusz saved document (version 3.2.1)
+# Saved at 2021-02-19T18:13:58.866819
+
+AddImportPath(u'C:\\Users\\Leonardo\\Documents\\Leo\\Mestrado\\Projeto Risers\\PaperMarineStructures\\Resultados\\EstudoEstatistico\\Fase1\\VeuszHypTest')
+ImportString(u'x(numeric)','''
+1.000000e+00
+2.000000e+00
+3.000000e+00
+4.000000e+00
+5.000000e+00
+6.000000e+00
+7.000000e+00
+8.000000e+00
+9.000000e+00
+1.000000e+01
+1.100000e+01
+1.200000e+01
+1.300000e+01
+1.400000e+01
+1.500000e+01
+1.600000e+01
+1.700000e+01
+1.800000e+01
+1.900000e+01
+2.000000e+01
+''')
+SetDataText(u'xtext', [
+    u'C_{Dt} = C_{Dt,b}/2',
+    u'\\lambda = \\lambda_{b}/4',
+    u'K_{n} = 15 K_{n, b}',
+])
+ImportString(u'y(numeric),+-','''
+2.729472e-01 1.077344e-01
+3.827078e-01 6.083353e-02
+-1.099935e-01 7.421611e-02
+''')
+Set('StyleSheet/axis-function/autoRange', u'next-tick')
+Add('page', name=u'page1', autoadd=False)
+To(u'page1')
+Set('width', u'15.169cm')
+Set('height', u'9.2cm')
+Add('graph', name=u'graph1', autoadd=False)
+To(u'graph1')
+Set('leftMargin', u'2.355cm')
+Set('rightMargin', u'0.2cm')
+Set('topMargin', u'0.179cm')
+Set('bottomMargin', u'0.367cm')
+Add('axis', name=u'x', autoadd=False)
+To(u'x')
+Set('label', u'A wonderful \\emph{x} axis')
+Set('min', 0.8)
+Set('max', 4.4)
+Set('log', False)
+Set('mode', u'labels')
+Set('direction', u'horizontal')
+Set('otherPosition', 0.0)
+Set('Label/hide', True)
+Set('Label/rotate', u'0')
+Set('TickLabels/size', u'20pt')
+Set('TickLabels/hide', True)
+Set('MajorTicks/hide', True)
+Set('MinorTicks/hide', True)
+To('..')
+Add('axis', name=u'y', autoadd=False)
+To(u'y')
+Set('label', u'Normalized fall width')
+Set('min', -0.2)
+Set('max', 0.5)
+Set('direction', u'vertical')
+Set('otherPosition', 0.0)
+Set('Label/size', u'20pt')
+Set('Label/bold', True)
+Set('TickLabels/size', u'20pt')
+Set('TickLabels/bold', True)
+Set('MajorTicks/number', 5)
+To('..')
+Add('xy', name=u'xy1', autoadd=False)
+To(u'xy1')
+Set('marker', u'diamond')
+Set('key', u'data')
+Set('labels', u'xtext')
+Set('errorStyle', u'barends')
+Set('PlotLine/hide', True)
+Set('MarkerLine/width', u'1pt')
+Set('MarkerFill/color', u'red')
+Set('ErrorBarLine/width', u'1.5pt')
+Set('Label/posnHorz', u'right')
+Set('Label/posnVert', u'centre')
+Set('Label/angle', 0.0)
+Set('Label/size', u'24pt')
+Set('Label/color', u'foreground')
+Set('Label/italic', False)
+Set('Label/bold', True)
+To('..')
+Add('fit', name=u'fit1', autoadd=False)
+To(u'fit1')
+Set('values', {u'a': 0.0, u'b': 0.0})
+Set('key', u'fit')
+Set('Line/style', u'dotted')
+To('..')
+To('..')
+To('..')
