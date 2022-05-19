@@ -5,6 +5,6 @@ Other files created by the author to assist in personal projects.
 Files created for data visualization using Veusz. 
 Examples: Hypothesis test, Boxplot, and Distribution fitted to data.
 
-## SKLearnIntroduction
+## [SKLearnIntroduction](https://github.com/LeonardoGoncRibeiro/Others/blob/SKLearn_Introduction/ScikitLearn_RegressionClassificationClustering.ipynb)
 
 Class notes from a basic course in SKLearn.
